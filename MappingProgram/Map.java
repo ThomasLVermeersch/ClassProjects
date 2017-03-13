@@ -158,7 +158,6 @@ public class Map{
 		String ct = "Not a city code";
 		city++;
 		//Find city code
-		System.out.println(cityArray[city].length);
 		if(cityArray[city].length > 5){
 			ct = cityArray[city][2] + " " + cityArray[city][3];
 		} else {
