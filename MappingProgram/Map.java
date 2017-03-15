@@ -178,8 +178,6 @@ public class Map{
 	//Checks if road exists
 	public static boolean doesRoadExist(int from, int to){
 		if(adjacencyMatrix[from][to] == 0){
-			System.out.println("The road from " + codeToFullCityName(from) +
-			" to " + codeToFullCityName(to) + " does not exist");
 			return false;
 		}
 		return true;
