@@ -11,13 +11,6 @@ import java.io.*;
 public class ProcessScheduler{
 
     public static void main(String args[]){
-    	try{
-    		PrintStream printStream = new PrintStream(new FileOutputStream("ProjectOneOutput.txt"));
-			System.setOut(printStream);
-		} catch(FileNotFoundException e){
-			
-		}
-
     //Show interface
 		while(true){
  	    	System.out.println("Which Algorithm would you like to use?\n"+
@@ -139,6 +132,7 @@ public class ProcessScheduler{
 	//the queue
 					case 1:
 						burst_time = queue.remove();
+						System.out.println("Starting burst time: " + burst_time);
 						if(burst_time <= tq){
 							cpuTime += burst_time;
 							burst_time = 0;
@@ -148,6 +142,7 @@ public class ProcessScheduler{
 							burst_time -= tq;
 							cpuTime += tq;
 						}
+						System.out.println("Ending burst time: " + burst_time);
 						break;
 	//Case 2 means it is the lottery number (which is irrelevant) and signifies the end of the process data
 	//Check if the process is complete, if not put back in the queue.
@@ -249,6 +244,7 @@ public class ProcessScheduler{
 						System.out.println("Process " + i + " initiated at cpu time: " + cpuTime);
 	//If burst time is less than the time quantum, run it til completion and take not of its completion
 	//Otherwise subtract the time quantum and go again.
+						System.out.println("Starting burst time: " + burst_time);
 						if(burst_time <= tq){
 							cpuTime += burst_time;
 							array[i][0] = 0;
@@ -261,6 +257,7 @@ public class ProcessScheduler{
 							System.out.println("Process " + i + " swapped out at cpu time: " + cpuTime);
 							cpuTime += swapSpeed;
 						}
+						System.out.println("Ending burst time: " + array[i][0]);
 					}
 				}
 			}
