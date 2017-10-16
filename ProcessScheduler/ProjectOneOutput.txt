@@ -1,0 +1,1635 @@
+Which Algorithm would you like to use?
+[0] First-Come-First-Serve
+[1] Shortest Job First
+[2] Round Robin with Time Quantum of 30
+[3] Round Robin with Time Quantum of 60
+[4] Lottery with Time Quantum of 50
+[5] Exit
+Choice: Which File would you like to test? 
+Shortest job initiated on file testdata1.txt
+Process 15 has been initiated at cputime: 0
+Process 15 completed at cputime: 13
+Process 18 has been initiated at cputime: 16
+Process 18 completed at cputime: 58
+Process 5 has been initiated at cputime: 61
+Process 5 completed at cputime: 143
+Process 8 has been initiated at cputime: 146
+Process 8 completed at cputime: 254
+Process 9 has been initiated at cputime: 257
+Process 9 completed at cputime: 457
+Process 12 has been initiated at cputime: 460
+Process 12 completed at cputime: 670
+Process 13 has been initiated at cputime: 673
+Process 13 completed at cputime: 999
+Process 11 has been initiated at cputime: 1002
+Process 11 completed at cputime: 1338
+Process 7 has been initiated at cputime: 1341
+Process 7 completed at cputime: 1746
+Process 16 has been initiated at cputime: 1749
+Process 16 completed at cputime: 2194
+Process 19 has been initiated at cputime: 2197
+Process 19 completed at cputime: 2689
+Process 17 has been initiated at cputime: 2692
+Process 17 completed at cputime: 3262
+Process 3 has been initiated at cputime: 3265
+Process 3 completed at cputime: 4061
+Process 14 has been initiated at cputime: 4064
+Process 14 completed at cputime: 4862
+Process 10 has been initiated at cputime: 4865
+Process 10 completed at cputime: 5806
+Process 6 has been initiated at cputime: 5809
+Process 6 completed at cputime: 6767
+Process 1 has been initiated at cputime: 6770
+Process 1 completed at cputime: 7746
+Process 2 has been initiated at cputime: 7749
+Process 2 completed at cputime: 8736
+Average time per process: 459
+Which Algorithm would you like to use?
+[0] First-Come-First-Serve
+[1] Shortest Job First
+[2] Round Robin with Time Quantum of 30
+[3] Round Robin with Time Quantum of 60
+[4] Lottery with Time Quantum of 50
+[5] Exit
+Choice: Which File would you like to test? 
+Round Robin with time quantum of 30 initiated on file testdata2.txt
+Process 1 initiated at CPU time: 0
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 33
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 66
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 99
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 132
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 165
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 198
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 231
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 264
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 297
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 330
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 363
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 396
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 429
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 462
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 495
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 528
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 561
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 594
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 627
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 660
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 693
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 726
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 759
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 792
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 825
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 858
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 891
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 924
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 957
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 990
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 1023
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 1056
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 1089
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 1122
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 1155
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 1188
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 1221
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 1254
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 1287
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 1320
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 1353
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 1386
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 1419
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 1452
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 1485
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 1518
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 1551
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 1584
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 1617
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 1650
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 1683
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 1716
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 1749
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 1782
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 1815
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 1848
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 1881
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 1914
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 1947
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 1980
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 2013
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 2046
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 2079
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 2112
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 2145
+Process 3 completed at CPU time: 2171
+Process 4 initiated at CPU time: 2174
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 2207
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 2240
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 2273
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 2306
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 2339
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 2372
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 2405
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 2438
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 2471
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 2504
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 2537
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 2570
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 2603
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 2636
+Process 18 completed at CPU time: 2663
+Process 19 initiated at CPU time: 2666
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 2699
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 2732
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 2765
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 2798
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 2831
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 2864
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 2897
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 2930
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 2963
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 2996
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 3029
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 3062
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 3095
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 3128
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 3161
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 3194
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 3227
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 3260
+Process 17 has been swapped out
+Process 19 initiated at CPU time: 3293
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 3326
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 3359
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 3392
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 3425
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 3458
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 3491
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 3524
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 3557
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 3590
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 3623
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 3656
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 3689
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 3722
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 3755
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 3788
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 3821
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 3854
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 3887
+Process 17 has been swapped out
+Process 19 initiated at CPU time: 3920
+Process 19 completed at CPU time: 3939
+Process 20 initiated at CPU time: 3942
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 3975
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 4008
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 4041
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 4074
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 4107
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 4140
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 4173
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 4206
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 4239
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 4272
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 4305
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 4338
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 4371
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 4404
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 4437
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 4470
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 4503
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 4536
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 4569
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 4602
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 4635
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 4668
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 4701
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 4734
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 4767
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 4800
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 4833
+Process 9 completed at CPU time: 4850
+Process 10 initiated at CPU time: 4853
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 4886
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 4919
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 4952
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 4985
+Process 14 completed at CPU time: 5007
+Process 15 initiated at CPU time: 5010
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 5043
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 5076
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 5109
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 5142
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 5175
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 5208
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 5241
+Process 4 completed at CPU time: 5257
+Process 5 initiated at CPU time: 5260
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 5293
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 5326
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 5359
+Process 8 has been swapped out
+Process 10 initiated at CPU time: 5392
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 5425
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 5458
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 5491
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 5524
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 5557
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 5590
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 5623
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 5656
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 5689
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 5722
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 5755
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 5788
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 5821
+Process 7 completed at CPU time: 5834
+Process 8 initiated at CPU time: 5837
+Process 8 has been swapped out
+Process 10 initiated at CPU time: 5870
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 5903
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 5936
+Process 12 completed at CPU time: 5946
+Process 13 initiated at CPU time: 5949
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 5982
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 6015
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 6048
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 6081
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 6114
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 6147
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 6180
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 6213
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 6246
+Process 6 has been swapped out
+Process 8 initiated at CPU time: 6279
+Process 8 has been swapped out
+Process 10 initiated at CPU time: 6312
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 6345
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 6378
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 6411
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 6444
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 6477
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 6510
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 6543
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 6576
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 6609
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 6642
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 6675
+Process 6 has been swapped out
+Process 8 initiated at CPU time: 6708
+Process 8 has been swapped out
+Process 10 initiated at CPU time: 6741
+Process 10 completed at CPU time: 6760
+Process 11 initiated at CPU time: 6763
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 6796
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 6829
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 6862
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 6895
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 6928
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 6961
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 6994
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 7027
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 7060
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 7093
+Process 6 has been swapped out
+Process 8 initiated at CPU time: 7126
+Process 8 has been swapped out
+Process 11 initiated at CPU time: 7159
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 7192
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 7225
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 7258
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 7291
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 7324
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 7357
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 7390
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 7423
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 7456
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 7489
+Process 6 has been swapped out
+Process 8 initiated at CPU time: 7522
+Process 8 has been swapped out
+Process 11 initiated at CPU time: 7555
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 7588
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 7621
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 7654
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 7687
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 7720
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 7753
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 7786
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 7819
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 7852
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 7885
+Process 6 has been swapped out
+Process 8 initiated at CPU time: 7918
+Process 8 has been swapped out
+Process 11 initiated at CPU time: 7951
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 7984
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 8017
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 8050
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 8083
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 8116
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 8149
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 8182
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 8215
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 8248
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 8281
+Process 6 has been swapped out
+Process 8 initiated at CPU time: 8314
+Process 8 completed at CPU time: 8336
+Process 11 initiated at CPU time: 8339
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 8372
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 8405
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 8438
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 8471
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 8504
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 8537
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 8570
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 8603
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 8636
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 8669
+Process 6 has been swapped out
+Process 11 initiated at CPU time: 8702
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 8735
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 8768
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 8801
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 8834
+Process 17 completed at CPU time: 8848
+Process 20 initiated at CPU time: 8851
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 8884
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 8917
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 8950
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 8983
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 9016
+Process 6 has been swapped out
+Process 11 initiated at CPU time: 9049
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 9082
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 9115
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 9148
+Process 16 has been swapped out
+Process 20 initiated at CPU time: 9181
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 9214
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 9247
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 9280
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 9313
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 9346
+Process 6 has been swapped out
+Process 11 initiated at CPU time: 9379
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 9412
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 9445
+Process 15 has been swapped out
+Process 16 initiated at CPU time: 9478
+Process 16 has been swapped out
+Process 20 initiated at CPU time: 9511
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 9544
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 9577
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 9610
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 9643
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 9676
+Process 6 has been swapped out
+Process 11 initiated at CPU time: 9709
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 9742
+Process 13 has been swapped out
+Process 15 initiated at CPU time: 9775
+Process 15 completed at CPU time: 9781
+Process 16 initiated at CPU time: 9784
+Process 16 has been swapped out
+Process 20 initiated at CPU time: 9817
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 9850
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 9883
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 9916
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 9949
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 9982
+Process 6 completed at CPU time: 9994
+Process 11 initiated at CPU time: 9997
+Process 11 has been swapped out
+Process 13 initiated at CPU time: 10030
+Process 13 completed at CPU time: 10051
+Process 16 initiated at CPU time: 10054
+Process 16 has been swapped out
+Process 20 initiated at CPU time: 10087
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 10120
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 10153
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 10186
+Process 2 completed at CPU time: 10216
+Process 5 initiated at CPU time: 10219
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 10252
+Process 11 has been swapped out
+Process 16 initiated at CPU time: 10285
+Process 16 has been swapped out
+Process 20 initiated at CPU time: 10318
+Process 20 completed at CPU time: 10329
+Process 21 initiated at CPU time: 10332
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 10365
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 10398
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 10431
+Process 11 has been swapped out
+Process 16 initiated at CPU time: 10464
+Process 16 has been swapped out
+Process 21 initiated at CPU time: 10497
+Process 21 has been swapped out
+Process 1 initiated at CPU time: 10530
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 10563
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 10596
+Process 11 has been swapped out
+Process 16 initiated at CPU time: 10629
+Process 16 has been swapped out
+Process 21 initiated at CPU time: 10662
+Process 21 completed at CPU time: 10681
+Process 1 initiated at CPU time: 10684
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 10717
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 10750
+Process 11 has been swapped out
+Process 16 initiated at CPU time: 10783
+Process 16 has been swapped out
+Process 1 initiated at CPU time: 10816
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 10849
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 10882
+Process 11 has been swapped out
+Process 16 initiated at CPU time: 10915
+Process 16 has been swapped out
+Process 1 initiated at CPU time: 10948
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 10981
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 11014
+Process 11 has been swapped out
+Process 16 initiated at CPU time: 11047
+Process 16 has been swapped out
+Process 1 initiated at CPU time: 11080
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 11113
+Process 5 has been swapped out
+Process 11 initiated at CPU time: 11146
+Process 11 completed at CPU time: 11176
+Process 16 initiated at CPU time: 11179
+Process 16 has been swapped out
+Process 1 initiated at CPU time: 11212
+Process 1 has been swapped out
+Process 5 initiated at CPU time: 11245
+Process 5 completed at CPU time: 11257
+Process 16 initiated at CPU time: 11260
+Process 16 has been swapped out
+Process 1 initiated at CPU time: 11293
+Process 1 completed at CPU time: 11314
+Process 16 initiated at CPU time: 11317
+Process 16 has been swapped out
+Process 16 initiated at CPU time: 11350
+Process 16 has been swapped out
+Process 16 initiated at CPU time: 11383
+Process 16 completed at CPU time: 11400
+Average time per process: 543
+Which Algorithm would you like to use?
+[0] First-Come-First-Serve
+[1] Shortest Job First
+[2] Round Robin with Time Quantum of 30
+[3] Round Robin with Time Quantum of 60
+[4] Lottery with Time Quantum of 50
+[5] Exit
+Choice: Which File would you like to test? 
+Round Robin with time quantum of 60 initiated on file testdata3.txt
+Process 1 initiated at CPU time: 0
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 63
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 126
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 189
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 252
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 315
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 378
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 441
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 504
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 567
+Process 10 has been swapped out
+Process 11 initiated at CPU time: 630
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 693
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 756
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 819
+Process 14 has been swapped out
+Process 15 initiated at CPU time: 882
+Process 15 completed at CPU time: 897
+Process 16 initiated at CPU time: 900
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 963
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 1026
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 1089
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 1152
+Process 20 has been swapped out
+Process 21 initiated at CPU time: 1215
+Process 21 completed at CPU time: 1246
+Process 22 initiated at CPU time: 1249
+Process 22 has been swapped out
+Process 23 initiated at CPU time: 1312
+Process 23 has been swapped out
+Process 1 initiated at CPU time: 1375
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 1438
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 1501
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 1564
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 1627
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 1690
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 1753
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 1816
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 1879
+Process 9 has been swapped out
+Process 10 initiated at CPU time: 1942
+Process 10 completed at CPU time: 1956
+Process 11 initiated at CPU time: 1959
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 2022
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 2085
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 2148
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 2211
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 2274
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 2337
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 2400
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 2463
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 2526
+Process 22 has been swapped out
+Process 23 initiated at CPU time: 2589
+Process 23 has been swapped out
+Process 1 initiated at CPU time: 2652
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 2715
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 2778
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 2841
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 2904
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 2967
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 3030
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 3093
+Process 8 has been swapped out
+Process 9 initiated at CPU time: 3156
+Process 9 completed at CPU time: 3197
+Process 11 initiated at CPU time: 3200
+Process 11 has been swapped out
+Process 12 initiated at CPU time: 3263
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 3326
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 3389
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 3452
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 3515
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 3578
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 3641
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 3704
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 3767
+Process 22 has been swapped out
+Process 23 initiated at CPU time: 3830
+Process 23 has been swapped out
+Process 1 initiated at CPU time: 3893
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 3956
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 4019
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 4082
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 4145
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 4208
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 4271
+Process 7 has been swapped out
+Process 8 initiated at CPU time: 4334
+Process 8 completed at CPU time: 4339
+Process 11 initiated at CPU time: 4342
+Process 11 completed at CPU time: 4350
+Process 12 initiated at CPU time: 4353
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 4416
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 4479
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 4542
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 4605
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 4668
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 4731
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 4794
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 4857
+Process 22 has been swapped out
+Process 23 initiated at CPU time: 4920
+Process 23 completed at CPU time: 4948
+Process 1 initiated at CPU time: 4951
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 5014
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 5077
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 5140
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 5203
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 5266
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 5329
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 5392
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 5455
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 5518
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 5581
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 5644
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 5707
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 5770
+Process 19 has been swapped out
+Process 20 initiated at CPU time: 5833
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 5896
+Process 22 has been swapped out
+Process 1 initiated at CPU time: 5959
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 6022
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 6085
+Process 3 has been swapped out
+Process 4 initiated at CPU time: 6148
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 6211
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 6274
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 6337
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 6400
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 6463
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 6526
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 6589
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 6652
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 6715
+Process 18 has been swapped out
+Process 19 initiated at CPU time: 6778
+Process 19 completed at CPU time: 6788
+Process 20 initiated at CPU time: 6791
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 6854
+Process 22 has been swapped out
+Process 1 initiated at CPU time: 6917
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 6980
+Process 2 has been swapped out
+Process 3 initiated at CPU time: 7043
+Process 3 completed at CPU time: 7078
+Process 4 initiated at CPU time: 7081
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 7144
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 7207
+Process 6 has been swapped out
+Process 7 initiated at CPU time: 7270
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 7333
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 7396
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 7459
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 7522
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 7585
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 7648
+Process 18 has been swapped out
+Process 20 initiated at CPU time: 7711
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 7774
+Process 22 has been swapped out
+Process 1 initiated at CPU time: 7837
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 7900
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 7963
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 8026
+Process 5 has been swapped out
+Process 6 initiated at CPU time: 8089
+Process 6 completed at CPU time: 8118
+Process 7 initiated at CPU time: 8121
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 8184
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 8247
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 8310
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 8373
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 8436
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 8499
+Process 18 has been swapped out
+Process 20 initiated at CPU time: 8562
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 8625
+Process 22 has been swapped out
+Process 1 initiated at CPU time: 8688
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 8751
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 8814
+Process 4 has been swapped out
+Process 5 initiated at CPU time: 8877
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 8940
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 9003
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 9066
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 9129
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 9192
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 9255
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 9318
+Process 18 has been swapped out
+Process 20 initiated at CPU time: 9381
+Process 20 has been swapped out
+Process 22 initiated at CPU time: 9444
+Process 22 completed at CPU time: 9500
+Process 1 initiated at CPU time: 9503
+Process 1 has been swapped out
+Process 2 initiated at CPU time: 9566
+Process 2 has been swapped out
+Process 4 initiated at CPU time: 9629
+Process 4 completed at CPU time: 9662
+Process 5 initiated at CPU time: 9665
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 9728
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 9791
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 9854
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 9917
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 9980
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 10043
+Process 17 has been swapped out
+Process 18 initiated at CPU time: 10106
+Process 18 completed at CPU time: 10107
+Process 20 initiated at CPU time: 10110
+Process 20 has been swapped out
+Process 1 initiated at CPU time: 10173
+Process 1 completed at CPU time: 10226
+Process 2 initiated at CPU time: 10229
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 10292
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 10355
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 10418
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 10481
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 10544
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 10607
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 10670
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 10733
+Process 20 has been swapped out
+Process 2 initiated at CPU time: 10796
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 10859
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 10922
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 10985
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 11048
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 11111
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 11174
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 11237
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 11300
+Process 20 has been swapped out
+Process 2 initiated at CPU time: 11363
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 11426
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 11489
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 11552
+Process 12 has been swapped out
+Process 13 initiated at CPU time: 11615
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 11678
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 11741
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 11804
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 11867
+Process 20 has been swapped out
+Process 2 initiated at CPU time: 11930
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 11993
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 12056
+Process 7 has been swapped out
+Process 12 initiated at CPU time: 12119
+Process 12 completed at CPU time: 12146
+Process 13 initiated at CPU time: 12149
+Process 13 has been swapped out
+Process 14 initiated at CPU time: 12212
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 12275
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 12338
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 12401
+Process 20 has been swapped out
+Process 2 initiated at CPU time: 12464
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 12527
+Process 5 has been swapped out
+Process 7 initiated at CPU time: 12590
+Process 7 completed at CPU time: 12636
+Process 13 initiated at CPU time: 12639
+Process 13 completed at CPU time: 12643
+Process 14 initiated at CPU time: 12646
+Process 14 has been swapped out
+Process 16 initiated at CPU time: 12709
+Process 16 has been swapped out
+Process 17 initiated at CPU time: 12772
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 12835
+Process 20 has been swapped out
+Process 2 initiated at CPU time: 12898
+Process 2 has been swapped out
+Process 5 initiated at CPU time: 12961
+Process 5 completed at CPU time: 12971
+Process 14 initiated at CPU time: 12974
+Process 14 completed at CPU time: 12997
+Process 16 initiated at CPU time: 13000
+Process 16 completed at CPU time: 13027
+Process 17 initiated at CPU time: 13030
+Process 17 has been swapped out
+Process 20 initiated at CPU time: 13093
+Process 20 has been swapped out
+Process 2 initiated at CPU time: 13156
+Process 2 completed at CPU time: 13179
+Process 17 initiated at CPU time: 13182
+Process 17 completed at CPU time: 13199
+Process 20 initiated at CPU time: 13202
+Process 20 completed at CPU time: 13226
+Average time per process: 575
+Which Algorithm would you like to use?
+[0] First-Come-First-Serve
+[1] Shortest Job First
+[2] Round Robin with Time Quantum of 30
+[3] Round Robin with Time Quantum of 60
+[4] Lottery with Time Quantum of 50
+[5] Exit
+Choice: Which File would you like to test? 
+Process 5 initiated at cpu time: 0
+Process 5 swapped out at cpu time: 50
+Process 15 initiated at cpu time: 53
+Process 15 completed at cpu time: 66
+Process 12 initiated at cpu time: 69
+Process 12 swapped out at cpu time: 119
+Process 16 initiated at cpu time: 122
+Process 16 swapped out at cpu time: 172
+Process 6 initiated at cpu time: 175
+Process 6 swapped out at cpu time: 225
+Process 5 initiated at cpu time: 228
+Process 5 completed at cpu time: 260
+Process 14 initiated at cpu time: 263
+Process 14 swapped out at cpu time: 313
+Process 17 initiated at cpu time: 316
+Process 17 swapped out at cpu time: 366
+Process 2 initiated at cpu time: 369
+Process 2 swapped out at cpu time: 419
+Process 16 initiated at cpu time: 422
+Process 16 swapped out at cpu time: 472
+Process 13 initiated at cpu time: 475
+Process 13 swapped out at cpu time: 525
+Process 12 initiated at cpu time: 528
+Process 12 swapped out at cpu time: 578
+Process 1 initiated at cpu time: 581
+Process 1 swapped out at cpu time: 631
+Process 19 initiated at cpu time: 634
+Process 19 swapped out at cpu time: 684
+Process 3 initiated at cpu time: 687
+Process 3 swapped out at cpu time: 737
+Process 3 initiated at cpu time: 740
+Process 3 swapped out at cpu time: 790
+Process 19 initiated at cpu time: 793
+Process 19 swapped out at cpu time: 843
+Process 16 initiated at cpu time: 846
+Process 16 swapped out at cpu time: 896
+Process 16 initiated at cpu time: 899
+Process 16 swapped out at cpu time: 949
+Process 2 initiated at cpu time: 952
+Process 2 swapped out at cpu time: 1002
+Process 18 initiated at cpu time: 1005
+Process 18 completed at cpu time: 1047
+Process 19 initiated at cpu time: 1050
+Process 19 swapped out at cpu time: 1100
+Process 13 initiated at cpu time: 1103
+Process 13 swapped out at cpu time: 1153
+Process 16 initiated at cpu time: 1156
+Process 16 swapped out at cpu time: 1206
+Process 7 initiated at cpu time: 1209
+Process 7 swapped out at cpu time: 1259
+Process 3 initiated at cpu time: 1262
+Process 3 swapped out at cpu time: 1312
+Process 2 initiated at cpu time: 1315
+Process 2 swapped out at cpu time: 1365
+Process 13 initiated at cpu time: 1368
+Process 13 swapped out at cpu time: 1418
+Process 16 initiated at cpu time: 1421
+Process 16 swapped out at cpu time: 1471
+Process 3 initiated at cpu time: 1474
+Process 3 swapped out at cpu time: 1524
+Process 14 initiated at cpu time: 1527
+Process 14 swapped out at cpu time: 1577
+Process 14 initiated at cpu time: 1580
+Process 14 swapped out at cpu time: 1630
+Process 14 initiated at cpu time: 1633
+Process 14 swapped out at cpu time: 1683
+Process 3 initiated at cpu time: 1686
+Process 3 swapped out at cpu time: 1736
+Process 16 initiated at cpu time: 1739
+Process 16 swapped out at cpu time: 1789
+Process 8 initiated at cpu time: 1792
+Process 8 swapped out at cpu time: 1842
+Process 2 initiated at cpu time: 1845
+Process 2 swapped out at cpu time: 1895
+Process 3 initiated at cpu time: 1898
+Process 3 swapped out at cpu time: 1948
+Process 16 initiated at cpu time: 1951
+Process 16 swapped out at cpu time: 2001
+Process 12 initiated at cpu time: 2004
+Process 12 swapped out at cpu time: 2054
+Process 16 initiated at cpu time: 2057
+Process 16 completed at cpu time: 2102
+Process 2 initiated at cpu time: 2105
+Process 2 swapped out at cpu time: 2155
+Process 12 initiated at cpu time: 2158
+Process 12 swapped out at cpu time: 2208
+Process 3 initiated at cpu time: 2211
+Process 3 swapped out at cpu time: 2261
+Process 2 initiated at cpu time: 2264
+Process 2 swapped out at cpu time: 2314
+Process 13 initiated at cpu time: 2317
+Process 13 swapped out at cpu time: 2367
+Process 12 initiated at cpu time: 2370
+Process 12 completed at cpu time: 2380
+Process 4 initiated at cpu time: 2383
+Process 4 swapped out at cpu time: 2433
+Process 8 initiated at cpu time: 2436
+Process 8 swapped out at cpu time: 2486
+Process 3 initiated at cpu time: 2489
+Process 3 swapped out at cpu time: 2539
+Process 8 initiated at cpu time: 2542
+Process 8 completed at cpu time: 2550
+Process 1 initiated at cpu time: 2553
+Process 1 swapped out at cpu time: 2603
+Process 11 initiated at cpu time: 2606
+Process 11 swapped out at cpu time: 2656
+Process 3 initiated at cpu time: 2659
+Process 3 swapped out at cpu time: 2709
+Process 2 initiated at cpu time: 2712
+Process 2 swapped out at cpu time: 2762
+Process 2 initiated at cpu time: 2765
+Process 2 swapped out at cpu time: 2815
+Process 4 initiated at cpu time: 2818
+Process 4 swapped out at cpu time: 2868
+Process 1 initiated at cpu time: 2871
+Process 1 swapped out at cpu time: 2921
+Process 1 initiated at cpu time: 2924
+Process 1 swapped out at cpu time: 2974
+Process 3 initiated at cpu time: 2977
+Process 3 swapped out at cpu time: 3027
+Process 2 initiated at cpu time: 3030
+Process 2 swapped out at cpu time: 3080
+Process 3 initiated at cpu time: 3083
+Process 3 swapped out at cpu time: 3133
+Process 19 initiated at cpu time: 3136
+Process 19 swapped out at cpu time: 3186
+Process 3 initiated at cpu time: 3189
+Process 3 swapped out at cpu time: 3239
+Process 13 initiated at cpu time: 3242
+Process 13 swapped out at cpu time: 3292
+Process 17 initiated at cpu time: 3295
+Process 17 swapped out at cpu time: 3345
+Process 1 initiated at cpu time: 3348
+Process 1 swapped out at cpu time: 3398
+Process 17 initiated at cpu time: 3401
+Process 17 swapped out at cpu time: 3451
+Process 11 initiated at cpu time: 3454
+Process 11 swapped out at cpu time: 3504
+Process 11 initiated at cpu time: 3507
+Process 11 swapped out at cpu time: 3557
+Process 6 initiated at cpu time: 3560
+Process 6 swapped out at cpu time: 3610
+Process 3 initiated at cpu time: 3613
+Process 3 swapped out at cpu time: 3663
+Process 14 initiated at cpu time: 3666
+Process 14 swapped out at cpu time: 3716
+Process 2 initiated at cpu time: 3719
+Process 2 swapped out at cpu time: 3769
+Process 2 initiated at cpu time: 3772
+Process 2 swapped out at cpu time: 3822
+Process 4 initiated at cpu time: 3825
+Process 4 swapped out at cpu time: 3875
+Process 2 initiated at cpu time: 3878
+Process 2 swapped out at cpu time: 3928
+Process 19 initiated at cpu time: 3931
+Process 19 swapped out at cpu time: 3981
+Process 2 initiated at cpu time: 3984
+Process 2 swapped out at cpu time: 4034
+Process 4 initiated at cpu time: 4037
+Process 4 swapped out at cpu time: 4087
+Process 7 initiated at cpu time: 4090
+Process 7 swapped out at cpu time: 4140
+Process 2 initiated at cpu time: 4143
+Process 2 swapped out at cpu time: 4193
+Process 4 initiated at cpu time: 4196
+Process 4 swapped out at cpu time: 4246
+Process 13 initiated at cpu time: 4249
+Process 13 swapped out at cpu time: 4299
+Process 14 initiated at cpu time: 4302
+Process 14 swapped out at cpu time: 4352
+Process 9 initiated at cpu time: 4355
+Process 9 swapped out at cpu time: 4405
+Process 4 initiated at cpu time: 4408
+Process 4 swapped out at cpu time: 4458
+Process 14 initiated at cpu time: 4461
+Process 14 swapped out at cpu time: 4511
+Process 11 initiated at cpu time: 4514
+Process 11 swapped out at cpu time: 4564
+Process 6 initiated at cpu time: 4567
+Process 6 swapped out at cpu time: 4617
+Process 11 initiated at cpu time: 4620
+Process 11 swapped out at cpu time: 4670
+Process 1 initiated at cpu time: 4673
+Process 1 swapped out at cpu time: 4723
+Process 14 initiated at cpu time: 4726
+Process 14 swapped out at cpu time: 4776
+Process 1 initiated at cpu time: 4779
+Process 1 swapped out at cpu time: 4829
+Process 14 initiated at cpu time: 4832
+Process 14 swapped out at cpu time: 4882
+Process 13 initiated at cpu time: 4885
+Process 13 completed at cpu time: 4911
+Process 3 initiated at cpu time: 4914
+Process 3 swapped out at cpu time: 4964
+Process 2 initiated at cpu time: 4967
+Process 2 swapped out at cpu time: 5017
+Process 14 initiated at cpu time: 5020
+Process 14 swapped out at cpu time: 5070
+Process 17 initiated at cpu time: 5073
+Process 17 swapped out at cpu time: 5123
+Process 2 initiated at cpu time: 5126
+Process 2 swapped out at cpu time: 5176
+Process 3 initiated at cpu time: 5179
+Process 3 swapped out at cpu time: 5229
+Process 14 initiated at cpu time: 5232
+Process 14 swapped out at cpu time: 5282
+Process 14 initiated at cpu time: 5285
+Process 14 swapped out at cpu time: 5335
+Process 14 initiated at cpu time: 5338
+Process 14 swapped out at cpu time: 5388
+Process 1 initiated at cpu time: 5391
+Process 1 swapped out at cpu time: 5441
+Process 1 initiated at cpu time: 5444
+Process 1 swapped out at cpu time: 5494
+Process 11 initiated at cpu time: 5497
+Process 11 swapped out at cpu time: 5547
+Process 3 initiated at cpu time: 5550
+Process 3 completed at cpu time: 5596
+Process 2 initiated at cpu time: 5599
+Process 2 swapped out at cpu time: 5649
+Process 11 initiated at cpu time: 5652
+Process 11 completed at cpu time: 5688
+Process 6 initiated at cpu time: 5691
+Process 6 swapped out at cpu time: 5741
+Process 14 initiated at cpu time: 5744
+Process 14 swapped out at cpu time: 5794
+Process 10 initiated at cpu time: 5797
+Process 10 swapped out at cpu time: 5847
+Process 14 initiated at cpu time: 5850
+Process 14 swapped out at cpu time: 5900
+Process 17 initiated at cpu time: 5903
+Process 17 swapped out at cpu time: 5953
+Process 19 initiated at cpu time: 5956
+Process 19 swapped out at cpu time: 6006
+Process 2 initiated at cpu time: 6009
+Process 2 swapped out at cpu time: 6059
+Process 6 initiated at cpu time: 6062
+Process 6 swapped out at cpu time: 6112
+Process 17 initiated at cpu time: 6115
+Process 17 swapped out at cpu time: 6165
+Process 2 initiated at cpu time: 6168
+Process 2 swapped out at cpu time: 6218
+Process 6 initiated at cpu time: 6221
+Process 6 swapped out at cpu time: 6271
+Process 14 initiated at cpu time: 6274
+Process 14 completed at cpu time: 6322
+Process 6 initiated at cpu time: 6325
+Process 6 swapped out at cpu time: 6375
+Process 17 initiated at cpu time: 6378
+Process 17 swapped out at cpu time: 6428
+Process 17 initiated at cpu time: 6431
+Process 17 swapped out at cpu time: 6481
+Process 2 initiated at cpu time: 6484
+Process 2 completed at cpu time: 6521
+Process 1 initiated at cpu time: 6524
+Process 1 swapped out at cpu time: 6574
+Process 1 initiated at cpu time: 6577
+Process 1 swapped out at cpu time: 6627
+Process 19 initiated at cpu time: 6630
+Process 19 swapped out at cpu time: 6680
+Process 6 initiated at cpu time: 6683
+Process 6 swapped out at cpu time: 6733
+Process 19 initiated at cpu time: 6736
+Process 19 swapped out at cpu time: 6786
+Process 4 initiated at cpu time: 6789
+Process 4 swapped out at cpu time: 6839
+Process 17 initiated at cpu time: 6842
+Process 17 swapped out at cpu time: 6892
+Process 10 initiated at cpu time: 6895
+Process 10 swapped out at cpu time: 6945
+Process 19 initiated at cpu time: 6948
+Process 19 swapped out at cpu time: 6998
+Process 17 initiated at cpu time: 7001
+Process 17 swapped out at cpu time: 7051
+Process 19 initiated at cpu time: 7054
+Process 19 completed at cpu time: 7096
+Process 17 initiated at cpu time: 7099
+Process 17 swapped out at cpu time: 7149
+Process 1 initiated at cpu time: 7152
+Process 1 swapped out at cpu time: 7202
+Process 1 initiated at cpu time: 7205
+Process 1 swapped out at cpu time: 7255
+Process 17 initiated at cpu time: 7258
+Process 17 completed at cpu time: 7278
+Process 1 initiated at cpu time: 7281
+Process 1 swapped out at cpu time: 7331
+Process 6 initiated at cpu time: 7334
+Process 6 swapped out at cpu time: 7384
+Process 9 initiated at cpu time: 7387
+Process 9 swapped out at cpu time: 7437
+Process 1 initiated at cpu time: 7440
+Process 1 swapped out at cpu time: 7490
+Process 7 initiated at cpu time: 7493
+Process 7 swapped out at cpu time: 7543
+Process 1 initiated at cpu time: 7546
+Process 1 swapped out at cpu time: 7596
+Process 1 initiated at cpu time: 7599
+Process 1 swapped out at cpu time: 7649
+Process 4 initiated at cpu time: 7652
+Process 4 swapped out at cpu time: 7702
+Process 4 initiated at cpu time: 7705
+Process 4 swapped out at cpu time: 7755
+Process 7 initiated at cpu time: 7758
+Process 7 swapped out at cpu time: 7808
+Process 9 initiated at cpu time: 7811
+Process 9 swapped out at cpu time: 7861
+Process 4 initiated at cpu time: 7864
+Process 4 swapped out at cpu time: 7914
+Process 9 initiated at cpu time: 7917
+Process 9 completed at cpu time: 7967
+Process 1 initiated at cpu time: 7970
+Process 1 swapped out at cpu time: 8020
+Process 6 initiated at cpu time: 8023
+Process 6 swapped out at cpu time: 8073
+Process 6 initiated at cpu time: 8076
+Process 6 swapped out at cpu time: 8126
+Process 10 initiated at cpu time: 8129
+Process 10 swapped out at cpu time: 8179
+Process 6 initiated at cpu time: 8182
+Process 6 swapped out at cpu time: 8232
+Process 4 initiated at cpu time: 8235
+Process 4 swapped out at cpu time: 8285
+Process 6 initiated at cpu time: 8288
+Process 6 swapped out at cpu time: 8338
+Process 1 initiated at cpu time: 8341
+Process 1 swapped out at cpu time: 8391
+Process 6 initiated at cpu time: 8394
+Process 6 swapped out at cpu time: 8444
+Process 6 initiated at cpu time: 8447
+Process 6 swapped out at cpu time: 8497
+Process 1 initiated at cpu time: 8500
+Process 1 completed at cpu time: 8526
+Process 7 initiated at cpu time: 8529
+Process 7 swapped out at cpu time: 8579
+Process 7 initiated at cpu time: 8582
+Process 7 swapped out at cpu time: 8632
+Process 10 initiated at cpu time: 8635
+Process 10 swapped out at cpu time: 8685
+Process 4 initiated at cpu time: 8688
+Process 4 swapped out at cpu time: 8738
+Process 6 initiated at cpu time: 8741
+Process 6 swapped out at cpu time: 8791
+Process 6 initiated at cpu time: 8794
+Process 6 swapped out at cpu time: 8844
+Process 6 initiated at cpu time: 8847
+Process 6 swapped out at cpu time: 8897
+Process 10 initiated at cpu time: 8900
+Process 10 swapped out at cpu time: 8950
+Process 6 initiated at cpu time: 8953
+Process 6 swapped out at cpu time: 9003
+Process 7 initiated at cpu time: 9006
+Process 7 swapped out at cpu time: 9056
+Process 6 initiated at cpu time: 9059
+Process 6 completed at cpu time: 9067
+Process 4 initiated at cpu time: 9070
+Process 4 swapped out at cpu time: 9120
+Process 7 initiated at cpu time: 9123
+Process 7 swapped out at cpu time: 9173
+Process 4 initiated at cpu time: 9176
+Process 4 swapped out at cpu time: 9226
+Process 4 initiated at cpu time: 9229
+Process 4 swapped out at cpu time: 9279
+Process 4 initiated at cpu time: 9282
+Process 4 swapped out at cpu time: 9332
+Process 7 initiated at cpu time: 9335
+Process 7 completed at cpu time: 9340
+Process 10 initiated at cpu time: 9343
+Process 10 swapped out at cpu time: 9393
+Process 10 initiated at cpu time: 9396
+Process 10 swapped out at cpu time: 9446
+Process 10 initiated at cpu time: 9449
+Process 10 swapped out at cpu time: 9499
+Process 4 initiated at cpu time: 9502
+Process 4 swapped out at cpu time: 9552
+Process 4 initiated at cpu time: 9555
+Process 4 swapped out at cpu time: 9605
+Process 4 initiated at cpu time: 9608
+Process 4 completed at cpu time: 9649
+Process 10 initiated at cpu time: 9652
+Process 10 swapped out at cpu time: 9702
+Process 10 initiated at cpu time: 9705
+Process 10 swapped out at cpu time: 9755
+Process 10 initiated at cpu time: 9758
+Process 10 swapped out at cpu time: 9808
+Process 10 initiated at cpu time: 9811
+Process 10 swapped out at cpu time: 9861
+Process 10 initiated at cpu time: 9864
+Process 10 swapped out at cpu time: 9914
+Process 10 initiated at cpu time: 9917
+Process 10 swapped out at cpu time: 9967
+Process 10 initiated at cpu time: 9970
+Process 10 swapped out at cpu time: 10020
+Process 10 initiated at cpu time: 10023
+Process 10 swapped out at cpu time: 10073
+Process 10 initiated at cpu time: 10076
+Process 10 swapped out at cpu time: 10126
+Process 10 initiated at cpu time: 10129
+Process 10 swapped out at cpu time: 10179
+Process 10 initiated at cpu time: 10182
+Process 10 completed at cpu time: 10223
+Average time per process: 538
+Which Algorithm would you like to use?
+[0] First-Come-First-Serve
+[1] Shortest Job First
+[2] Round Robin with Time Quantum of 30
+[3] Round Robin with Time Quantum of 60
+[4] Lottery with Time Quantum of 50
+[5] Exit
+Choice: Adios, mi amigo.
