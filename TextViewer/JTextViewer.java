@@ -91,7 +91,7 @@ public class JTextViewer extends JFrame{
 			}
 		});
 
-		//file reader action listener
+		//font menu action listener
 		fontMenu.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent ae){
 				String fontName = JFontChooser.showDialog(frame);

@@ -1,0 +1,291 @@
+Enter 0 for random puzzles and 1 for custom submissions: Enter a puzzle sequence in one line (example: 012345678): Choose a heuristic(0 for manhattan distance, 1 for misplaced tiles, ): -------
+3 8 1 
+
+4 7 5 
+
+6 2 0 
+-------
+3 8 1 
+
+4 7 0 
+
+6 2 5 
+-------
+3 8 1 
+
+4 7 2 
+
+6 0 5 
+-------
+3 8 1 
+
+4 0 2 
+
+6 7 5 
+-------
+3 0 1 
+
+4 8 2 
+
+6 7 5 
+-------
+3 1 0 
+
+4 8 2 
+
+6 7 5 
+-------
+3 1 2 
+
+4 8 0 
+
+6 7 5 
+-------
+3 1 2 
+
+4 0 8 
+
+6 7 5 
+-------
+3 1 2 
+
+4 7 8 
+
+6 0 5 
+-------
+3 1 2 
+
+4 7 0 
+
+6 8 5 
+-------
+3 1 2 
+
+4 7 5 
+
+6 8 0 
+-------
+3 1 2 
+
+4 7 5 
+
+6 0 8 
+-------
+3 1 2 
+
+4 0 5 
+
+6 7 8 
+-------
+3 1 2 
+
+0 4 5 
+
+6 7 8 
+-------
+0 1 2 
+
+3 4 5 
+
+6 7 8 
+solved with depth 14
+Number of nodes: 286
+Enter a puzzle sequence in one line (example: 012345678): Choose a heuristic(0 for manhattan distance, 1 for misplaced tiles, ): Not a valid puzzle
+Number of nodes: 0
+Enter a puzzle sequence in one line (example: 012345678): Choose a heuristic(0 for manhattan distance, 1 for misplaced tiles, ): -------
+6 3 1 
+
+7 5 4 
+
+8 2 0 
+-------
+6 3 1 
+
+7 5 4 
+
+8 0 2 
+-------
+6 3 1 
+
+7 0 4 
+
+8 5 2 
+-------
+6 3 1 
+
+7 4 0 
+
+8 5 2 
+-------
+6 3 1 
+
+7 4 2 
+
+8 5 0 
+-------
+6 3 1 
+
+7 4 2 
+
+8 0 5 
+-------
+6 3 1 
+
+7 4 2 
+
+0 8 5 
+-------
+6 3 1 
+
+0 4 2 
+
+7 8 5 
+-------
+0 3 1 
+
+6 4 2 
+
+7 8 5 
+-------
+3 0 1 
+
+6 4 2 
+
+7 8 5 
+-------
+3 1 0 
+
+6 4 2 
+
+7 8 5 
+-------
+3 1 2 
+
+6 4 0 
+
+7 8 5 
+-------
+3 1 2 
+
+6 4 5 
+
+7 8 0 
+-------
+3 1 2 
+
+6 4 5 
+
+7 0 8 
+-------
+3 1 2 
+
+6 4 5 
+
+0 7 8 
+-------
+3 1 2 
+
+0 4 5 
+
+6 7 8 
+-------
+0 1 2 
+
+3 4 5 
+
+6 7 8 
+solved with depth 16
+Number of nodes: 5046
+Enter a puzzle sequence in one line (example: 012345678): Choose a heuristic(0 for manhattan distance, 1 for misplaced tiles, ): -------
+3 2 8 
+
+5 7 1 
+
+0 6 4 
+-------
+3 2 8 
+
+5 7 1 
+
+6 0 4 
+-------
+3 2 8 
+
+5 0 1 
+
+6 7 4 
+-------
+3 2 8 
+
+5 1 0 
+
+6 7 4 
+-------
+3 2 0 
+
+5 1 8 
+
+6 7 4 
+-------
+3 0 2 
+
+5 1 8 
+
+6 7 4 
+-------
+3 1 2 
+
+5 0 8 
+
+6 7 4 
+-------
+3 1 2 
+
+5 7 8 
+
+6 0 4 
+-------
+3 1 2 
+
+5 7 0 
+
+6 8 4 
+-------
+3 1 2 
+
+5 7 4 
+
+6 8 0 
+-------
+3 1 2 
+
+5 7 4 
+
+6 0 8 
+-------
+3 1 2 
+
+5 0 4 
+
+6 7 8 
+-------
+3 1 2 
+
+5 4 0 
+
+6 7 8 
+-------
+3 1 2 
+
+0 4 5 
+
+6 7 8 
+-------
+0 1 2 
+
+3 4 5 
+
+6 7 8 
+solved with depth 14
+Number of nodes: 534
+Enter a puzzle sequence in one line (example: 012345678): 
