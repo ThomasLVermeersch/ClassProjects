@@ -54,7 +54,6 @@ class BoardState{
 				if(this.board[i] == this.board[j]) heuristic++;
 				//Compare diagonals
 				if(Math.abs(j - i) == Math.abs(board[j] - board[i])) heuristic++;
-				}
 			}
 		}
 		return heuristic;
