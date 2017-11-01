@@ -2,13 +2,56 @@ import java.util.*;
 
 public class NQueens{
 	public static void main(String[] args){
-		puzzleDriver();
+		newPuzzle();
 	}
 
-	public static void puzzleDriver(){
-		BoardState thisState = new BoardState(21);
-		thisState.printBoard();
-		System.out.println("heuristic: " + thisState.getHeuristic());
+	public static void newPuzzle(){
+		float totalSolved = 0;
+		for(int i = 0; i < 100; i++){
+			BoardState thisState = new BoardState(21);
+			System.out.println("heuristic: " + thisState.getHeuristic());
+			if(hillClimbingSolution(thisState)) totalSolved++;
+		}
+		System.out.println("Average Solved: " + (totalSolved / 100));
+	}
+
+	public static BoardState generateNewBoardState(BoardState board, int n, int newPos, int col){
+		BoardState tempState = new BoardState(n, board);
+		tempState.makeState(newPos, col);
+		return tempState;
+	}
+
+	public static boolean hillClimbingSolution(BoardState thisState){
+		while(thisState.getHeuristic() != 0){
+			BoardState next = getBestNextState(thisState);
+			if(next.getHeuristic() >= thisState.getHeuristic()){
+				System.out.println("Same heuristic, problem cant be solved");
+				return false;
+			}
+			thisState = next;
+			System.out.println("Heuristic: " + thisState.getHeuristic());
+		}
+		System.out.println("Solved");
+		return true;
+	}
+	public static BoardState getBestNextState(BoardState thisState){
+		Comparator<BoardState> comparator = new Comparator<BoardState>(){
+			@Override
+			public int compare(BoardState n1, BoardState n2){
+				return n1.getHeuristic() - n2.getHeuristic();
+			}
+		};
+
+ 		PriorityQueue<BoardState> setOfNext = new PriorityQueue<BoardState>(100, comparator);
+
+		for(int i = 0; i < thisState.getSize(); i++){
+			for(int j = 0; j < thisState.getSize(); j++){
+				BoardState tempState = new BoardState(thisState.getSize(), thisState);
+				tempState.makeState(i,j);
+				setOfNext.add(tempState);
+			}
+		}
+		return setOfNext.poll();
 	}
 
 }
@@ -25,8 +68,22 @@ class BoardState{
 		this.heuristic = generateHueristic();
 	}
 
+	public BoardState(int size, BoardState board){
+		this.size = size;
+		this.board = new int[size];
+		for(int i = 0; i < size; i++){
+			this.board[i] = board.board[i];
+		}
+		this.heuristic = generateHueristic();
+	}
+
 	public void randomizeBoard(){
 		for(int i = 0; i < this.board.length; i++) addQueen(getRandomIndex(), i);
+	}
+
+	public void makeState(int newPos, int col){
+		this.board[col] = newPos;
+		this.heuristic = generateHueristic();
 	}
 
 	public void printBoard(){
@@ -58,6 +115,10 @@ class BoardState{
 		}
 		return heuristic;
 	}
+	public int[] getBoard(){
+		return this.board;
+	}
+
 
 	public int getHeuristic(){
 		return this.heuristic;
