@@ -10,7 +10,9 @@ public class NQueens{
 		for(int i = 0; i < 100; i++){
 			BoardState thisState = new BoardState(21);
 			System.out.println("heuristic: " + thisState.getHeuristic());
-			if(hillClimbingSolution(thisState)) totalSolved++;
+			//if(hillClimbingSolution(thisState)) totalSolved++;
+			if(geneticSolution()) totalSolved++;
+
 		}
 		System.out.println("Average Solved: " + (totalSolved / 100));
 	}
@@ -25,15 +27,80 @@ public class NQueens{
 		while(thisState.getHeuristic() != 0){
 			BoardState next = getBestNextState(thisState);
 			if(next.getHeuristic() >= thisState.getHeuristic()){
-				System.out.println("Same heuristic, problem cant be solved");
+				//System.out.println("Same heuristic, problem cant be solved");
 				return false;
 			}
 			thisState = next;
-			System.out.println("Heuristic: " + thisState.getHeuristic());
+			//System.out.println("Heuristic: " + thisState.getHeuristic());
 		}
 		System.out.println("Solved");
 		return true;
 	}
+
+	public static boolean geneticSolution(){
+		boolean solved = false;
+		//Will hold parents
+		BoardState[] population = new BoardState[100];
+		BoardState[] temp = new BoardState[100];
+		//Create 100 parents check for any already solved states
+		for(int i = 0; i < 100; i++){
+			population[i] = new BoardState(21);
+			if(population[i].getHeuristic() == 0){
+				System.out.println("Solution found.");
+				return true;
+			}
+		}
+		while(!solved){
+			Random rnd = new Random(System.nanoTime());
+			//Build next population
+			for(int i = 0; i < 100; i++){
+				int rn1 = rnd.nextInt(100);
+				int rn2 = rnd.nextInt(100);
+				if(Arrays.equals(population[rn1].getBoard(), population[rn2].getBoard())){
+					i--;
+					continue;
+				} else {
+					BoardState bsc = crossOver(population[rn1], population[rn2]);
+					if(bsc.getHeuristic() > population[rn1].getHeuristic() || bsc.getHeuristic() > population[rn2].getHeuristic()){
+						i--;
+						continue;
+					} else {
+						temp[i] = bsc;
+					}
+				}
+				if(rn1 < 30) temp[i].mutate();
+				if(temp[i].getHeuristic() == 0){
+					System.out.println("Solution found.");
+					return true;
+				}
+			}
+			for(int i = 0; i < 100; i++){
+				population[i] = temp[i];
+			}
+		}
+		System.out.println("Solved");
+		return true;
+	}
+
+	public static BoardState crossOver(BoardState b1, BoardState b2){
+		int[] newChild = new int[b1.getSize()];
+		int rand = b1.getRandomIndex();
+		Random rng = new Random(System.nanoTime());
+		int rngI = rng.nextInt(1);
+		for(int i = 0; i < b1.getSize(); i++){
+			if(rngI == 0){
+				if(i < rand) newChild[i] = b1.getBoardValue(i);
+				if(i >= rand) newChild[i] = b2.getBoardValue(i);
+			} else {
+				if(i < rand) newChild[i] = b2.getBoardValue(i);
+				if(i >= rand) newChild[i] = b1.getBoardValue(i);
+			}
+		}
+		BoardState child = new BoardState(b1.getSize(), newChild);
+		//System.out.println("Child:" + Arrays.toString(child.getBoard()) + "\nh: " + child.getHeuristic());
+		return child;
+	}
+
 	public static BoardState getBestNextState(BoardState thisState){
 		Comparator<BoardState> comparator = new Comparator<BoardState>(){
 			@Override
@@ -68,13 +135,28 @@ class BoardState{
 		this.heuristic = generateHueristic();
 	}
 
+	public BoardState(int size, int[] arr){
+		this.size = size;
+		this.board = new int[size];
+		for(int i = 0; i < size; i++) this.board[i] = arr[i];
+		this.heuristic = generateHueristic();
+	}
+
 	public BoardState(int size, BoardState board){
 		this.size = size;
 		this.board = new int[size];
-		for(int i = 0; i < size; i++){
-			this.board[i] = board.board[i];
-		}
+		for(int i = 0; i < size; i++) this.board[i] = board.board[i];
 		this.heuristic = generateHueristic();
+	}
+
+	public void mutate(){
+		Random rand = new Random(System.nanoTime());
+		int rng = rand.nextInt(21);
+		this.board[rng] = rand.nextInt(21);
+	}
+
+	public int getBoardValue(int index){
+		return this.board[index];
 	}
 
 	public void randomizeBoard(){
